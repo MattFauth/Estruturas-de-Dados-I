@@ -1,0 +1,63 @@
+import Les
+l=Les.Les()
+l2=Les.Les()
+'''
+print(l.estahvazia())
+print(l.estahcheia())
+print(l.pegaQuant())
+l.inserirFim('A')
+l.inserirFim('B')
+l.inserirFim('C')
+l.show()
+print('*****')
+l.removerFim()
+l.show()
+print('*****')
+print(l.getPrim())
+print('*****')
+l.inserirFim('C')
+print(l.getUlt())
+'''
+l.inserirInicio('A')
+l.inserirInicio('B')
+l.inserirInicio('C')
+l.show()
+l2.inserirInicio(l.getPrim())
+l.removerInicio()
+l2.inserirInicio(l.getPrim())
+l.removerInicio()
+l2.inserirInicio(l.getPrim())
+l.removerInicio()
+l.show()
+print('*****')
+l2.show()
+print('*****')
+if l.estahvazia():
+    print('L está vazia')
+else:
+    print('L tem elementos')
+if l2.estahvazia():
+    print('L2 vazia')
+else:
+    print('L2 tem elementos')
+l.inserirFim('F')
+l.inserirInicio('D')
+l.inserirApos('D','E')
+l.inserirApos('A','D')
+print('*****')
+l.show()
+print('*****')
+l2.show()
+l2.limparLista()
+print('*****')
+l2.show()
+print('L2 aqui esta vazia')
+l2.inserirFim('A')
+l2.inserirFim('A')
+l2.inserirAposDet('A','M')
+print('*****')
+l2.show()
+
+
+
+
